@@ -1,0 +1,1 @@
+(function(a){jQuery(document).ready(function(b){b("#lightgallery").lightGallery({selector:".col-lg-4"})})}(jQuery));

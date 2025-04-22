@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Plantilla Correo Rentacar</title>
+</head>
+
+<body>
+    <font style = "font-family:arial;">
+    <div align="center">
+        <img src="banner-correo.png" alt="Logo" width="1100" height="280">
+    </div>
+
+
+    <div align="center">
+        <hr width=900 color=#C52121>
+        <h1>INFORMACIÓN CLIENTE</h1>
+        <hr width=900 color=#C52121>
+    </div>
+
+    <div align=center>
+        <table width=850>
+
+            <tr>
+                <td>
+                    <label>Tipo de Documento</label>
+                </td>
+
+                <td>
+                    <b id="tipo_documento">C.C</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Número de Documento</label>
+                </td>
+                <td>
+                    <b id="numero_documento">1.234.567</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Nombres</label>
+                </td>
+                <td>
+                    <b id="nombres">John</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Apellidos</label>
+                </td>
+                <td>
+                    <b id="apellidos">Benavides</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Dirección</label>
+                </td>
+                <td>
+                    <b id="direccion"> Cra 1 #2-34 B/Ejemplo</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Teléfono/Celular</label>
+                </td>
+                <td>
+                    <b id="telefono">312-456-7896</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nombre Conductor Adiconal</label>
+                </td>
+                <td>
+                    <b id="conductor_adicional"> Andrés Pérez</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Numero Documento Conductor Adicional</label>
+                </td>
+                <td>
+                    <b id="documento_conductor_adicional">12.345.678</b>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <hr width=900 color=#C52121>
+
+    <div align="center">
+        <h1>INFORMACIÓN VEHÍCULO</h1>
+        <hr width=900 color=#C52121>
+    </div>
+
+    <div align=center>
+        <table width=850>
+
+            <tr>
+                <td>
+                    <label>Nombre Vehículo</label>
+                </td>
+
+                <td>
+                    <b id="nombre_vehiculo">Escarabajo</b>
+                </td>
+
+                <td rowspan="10">
+                    <img src="escarabajo.jpg" width="400" height="280" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Placa Vehículo</label>
+                </td>
+                <td>
+                    <b id="placa">ABC-123</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Marca Vehículo</label>
+                </td>
+                <td>
+                    <b id="marca">Volskwagen</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Modelo Vehículo</label>
+                </td>
+                <td>
+                    <b id="modelo">1970</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Color Vehículo</label>
+                </td>
+                <td>
+                    <b id="color">Negro</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Vigencia SOAT</label>
+                </td>
+                <td>
+                    <b id="vigencia_soat">DD/MM/AAAA</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Vigencia Tecnomecánica (CDA)</label>
+                </td>
+                <td>
+                    <b id="vigencia_tecnomecanica">DD/MM/AAAA</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Valor Alquiler Vehículo</label>
+                </td>
+                <td>
+                    <b id="precio_alquiler">150.000</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Precio Lavado Vehículo</label>
+                </td>
+                <td>
+                    <b id="precio_lavado">30.000</b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Disponibilidad Vehículo</label>
+                </td>
+                <td>
+                    <b id="disponibilidad">SI/NO</b>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    <hr width=900 color=#C52121>
+
+    <div>
+        <div align="center">
+            <table border=3 width=850>
+                <tr>
+                    <th>VEHÍCULO</th>
+                    <th>VALOR</th>
+                    <th>TOTAL</th>
+                </tr>
+
+                <tr>
+                    <td><label id="nombre_vehiculo">NOMBRE VEHÍCULO</label></td>
+
+                    <td>
+                        <b id="precio_alquiler">160.000</b>
+                    </td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>FECHA </label></td>
+                    <td>
+                        <b id="">DD/MM/AAA</b>
+                    </td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>TRANSPORTE</td>
+                    <td><b id="">35.000</b></td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>LAVADO VEHÍCULO</td>
+                    <td><b id="precio_lavado">20.000</b></td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>RESERVA</td>
+                    <td>
+                        <b id="">15% </b>
+                    </td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>SALDO</td>
+                    <td>
+                        <b id="">80.000</b>
+                    </td>
+                    <td>
+                        <b>
+                            0
+                        </b>
+                    </td>
+                </tr>
+
+            </table>
+            <hr width=900 color=#C52121>
+        </div>
+    </div>
+
+    <div>
+        <div align="center">
+            <table width=850>
+                <tr>
+                    <th align="justify">
+                        <p style = "font-family:arial;">
+                            El vehículo estará sujeto a las fechas solicitadas para los desplazamientos, por
+                            esta razón se debe comunicar lo antes posible los días exactos de los recorridos
+                            para no ceder el vehículo que usted escoja a otras actividades.
+                            <br><br>
+                            Con anticipación se debe hacer una reserva de los vehículos por medio de una
+                            consignación a una cuenta bancaria del 30% del total de la renta, que se indicaría
+                            posteriormente y el excedente se pagará contra entrega.
+                            <br><br>
+                            Si el vehículo lo necesita en el aeropuerto el costo adicional será de 35.000 por
+                            trayecto.
+                            <br><br>
+                            Recuerde que son días de 24 horas, a la hora de entrega el 1er día será la misma
+                            hora para la devolución el último día. Si lo dejan más tiempo del acordado, se
+                            hará un acuerdo de pago por el tiempo adicional.
+                            <br><br>
+                            Los vehículos cuentan con los seguros correspondientes, incluidos en el precio. El
+                            kilometraje es libre según a la zona que vayan, son 200 km por día.
+                            <br><br>
+                            Para la renta pedimos una garantía de 1.000.000 con tarjeta de crédito por vehículo,
+                            y 1.500.000 por las camionetas.
+                            <br><br>
+                            Quedo atenta a sus comentarios y solicitudes.
+                        </p>
+                    </th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <div align="center">
+            <table width=850>
+                <tr>
+                    <th align="justify">
+                        <p>
+                            ___________________________________
+                            <br>
+                            AMANDA ELIZABETH BASTIDAS
+                            <br>
+                            Gerente administrativo
+                            <br>
+                            Cel. 3204408344
+                        </p>
+                    </th>
+                </tr>
+
+            </table>
+            <hr width=900 color=#C52121>
+        </div>
+    </div>
+
+    <div align="center">
+        RENT A CAR PASTO. Cel: 320 440 8344 www.rentacarpasto.com
+        
+    </div>
+</font>
+</body>
+
+</html>
