@@ -255,7 +255,7 @@
                                         alt="footer-logo" width="180px" height="180px"/></a></div>-->
                             <div class="footer-address">
                                 <h3>RENTACAR PASTO</h3>
-                                <p>Carrera 22B #11 Sur 61</p>
+                                <p>Cra 36 #10-21, Avenida Panamericana, Pasto, Nariño</p>
                                 <ul>
                                     <li>Telefono: 3227795422</li>
                                     <li>Email: sistemas@rentacarpasto.com</li>

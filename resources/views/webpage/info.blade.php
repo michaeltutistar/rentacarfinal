@@ -79,13 +79,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="site-heading">
-                        <h2>NUESTRA UBICACIÓN</h2>
-                        <p>ENCUENTRANOS EN PASTO</p>
+                        <h2>NUESTRAS UBICACIONES</h2>
+                        <p>ENCUENTRANOS EN:</p>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-lg-6">
                     <div class="google-map">
                         <iframe 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7737845789837!2d-77.28333468524528!3d1.2125799991599774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2ed48aaaaaaaab%3A0xaaaaaaaaaaaaaaaaa!2sCra.%2036%20%2310-21%2C%20Pasto%2C%20Nari%C3%B1o!5e0!3m2!1ses!2sco!4v1635789012345!5m2!1ses!2sco"
@@ -98,6 +98,21 @@
                     </div>
                     <div class="location-info text-center mt-4">
                         <h4><i class="fa fa-map-marker"></i> Cra 36 #10-21, Avenida Panamericana, Pasto, Nariño</h4>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="google-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d259.0765188868615!2d-77.28825687853136!3d1.3964241401672706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e2edbe2f51efb17%3A0x3a269ffcc68313d4!2sHotel%20Caba%C3%B1as%20Rio%20Mayo!5e0!3m2!1ses!2sco!4v1746257139337!5m2!1ses!2sco" 
+                             width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    <div class="location-info text-center mt-4">
+                        <h4><i class="fa fa-map-marker"></i> Hotel cabañas rio mayo Oficina 01 Chachagüi-Nariño</h4>
                     </div>
                 </div>
             </div>
